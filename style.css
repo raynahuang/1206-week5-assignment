@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  #countries-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .country {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    display:grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .country .flag {
+    width:10px;
+    height: 10px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .country p {
+    margin: 0;
+  }
+  
